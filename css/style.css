@@ -1,0 +1,127 @@
+.header img {
+	float: left;
+	border-radius: 50%;
+	background: white;
+	width: 200px;
+	height: 200px;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.header {
+	padding: 25px;
+`	border: 0px;
+	background: moccasin;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.text {
+	height: 30px;
+	font-size: 40px;
+	text-align: center;
+	font-family: magneto;
+}
+
+.menu li {
+	padding: 10px;
+	background: black;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 23px;
+	font-family: broadway;
+}
+
+.menu li:hover {
+	background: lemonchiffon;
+	border: 5px black solid;
+	color: black;
+	transition: all .4s ease-out; 
+}
+
+.header h3 {
+	padding: 1px;
+	font-size: 15px;
+	font-family: cambria;
+	color: black;
+	text-align: center;
+}
+	
+.showcase {
+	padding: 10px;
+	background-image: url(../images/slide5.jpg);
+	background-position; center;
+	background-size: cover;
+	background-repeat:no-repeat:
+	margin: 0;
+}
+
+.grid-wrapper {
+	padding: 75px;
+	display: grid;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(4,minmax(150px, 30px));
+	grid-gap: 10px;
+	grid-auto-flow: dense;
+}
+
+.grid-item {
+	background: peachpuff;
+	Font-size: 23px;
+	font-family: algerian;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainarticle {
+	padding: 350px;
+	background-image: url(../images/slide1.jpg);
+	background-position; center;
+	background-size: cover;
+	background-repeat:no-repeat:
+	margin: 0;
+}
+
+.hello {
+	background: navajowhite;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.text2 {
+	font-size: 30px;
+	font-family: aharoni;
+}
+	
+.footer {
+	padding: 40px;
+	background-color: Blanchedalmond;
+}
+
+.text1 {
+	padding: 10px;
+	background: burlywood;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 40px;
+	font-family: broadway;
+}
+
+.text1:hover {
+	background: tan;
+	border: 5px black solid;
+	color: black;
+	transition: all .4s ease-out; 
+}
